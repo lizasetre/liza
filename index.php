@@ -9,7 +9,7 @@
 
 <table border="1px">
   <tr class="head">
-    <th>BookName</th>
+    <th>Name</th>
     <th>Author</th>
     <th>Genre</th>
   </tr>
@@ -17,9 +17,9 @@
   foreach($list as $value){
 ?>
   <tr>
-    <td><?php echo $value['bookname'];?></td>
-    <td><?php echo $value['author'];?></td>
-    <td><?php echo $value['genre'];?></td>
+    <td><?php echo $value['BookName'];?></td>
+    <td><?php echo $value['Author'];?></td>
+    <td><?php echo $value['Genre'];?></td>
   </tr>
 <?php
   }
